@@ -36,12 +36,10 @@
     <div class="navbar-start" style="width: 33%;"></div>
     <div class="navbar-item is-flex is-justify-content-center" style="width: 34%;">
       <div class="is-flex is-justify-content-center">
-        <a href="/" class="navbar-item {{ request()->is('/') ? 'has-text-primary' : '' }}">Beranda</a>
-        <a href="/produk" class="navbar-item {{ request()->is('produk') ? 'has-text-primary' : '' }}">Sewa Alat Camping</a>
-        <a href="/porter" class="navbar-item {{ request()->is('porter') ? 'has-text-primary' : '' }}">Sewa Porter</a>
-        <a href="/kabar" class="navbar-item {{ request()->is('kabar') ? 'has-text-primary' : '' }}">Kabar Petualang</a>
-        <a href="/keranjang" class="navbar-item {{ request()->is('keranjang') ? 'has-text-primary' : '' }}">Keranjang</a>
-        <a href="/chat" class="navbar-item {{ request()->is('chat') ? 'has-text-primary' : '' }}">Hubungi Kami</a>
+        <a href="/admin" class="navbar-item {{ request()->is('admin') ? 'has-text-primary' : '' }}">Beranda</a>
+        <a href="/admin/produk" class="navbar-item {{ request()->is('admin/produk') ? 'has-text-primary' : '' }}">Sewa Alat Camping</a>
+        <a href="/admin/porter" class="navbar-item {{ request()->is('admin/porter') ? 'has-text-primary' : '' }}">Sewa Porter</a>
+        <a href="/admin/kabar" class="navbar-item {{ request()->is('admin/kabar') ? 'has-text-primary' : '' }}">Kabar Petualang</a>
       </div>
     </div>
     <div class="navbar-end" style="width: 33%; justify-content: flex-end;">

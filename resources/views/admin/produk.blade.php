@@ -24,7 +24,6 @@
             <a href="/admin/produk" class="navbar-item {{ request()->is('admin/produk') ? 'has-text-primary' : '' }}">Sewa Alat Camping</a>
             <a href="/admin/porter" class="navbar-item {{ request()->is('admin/porter') ? 'has-text-primary' : '' }}">Sewa Porter</a>
             <a href="/admin/kabar" class="navbar-item {{ request()->is('admin/kabar') ? 'has-text-primary' : '' }}">Kabar Petualang</a>
-            <a href="/admin/chat" class="navbar-item {{ request()->is('admin/chat') ? 'has-text-primary' : '' }}">Chat</a>
         </div>
         </div>
 
